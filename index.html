@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Sample 1</title>
+</head>
+<body>
+    <!--Navbar Section-->
+    <nav>
+        <label class="logo">
+        <img src="image/dragon.jpg" class="dragon">
+        <b> Infamous Dino </b></label>
+        <ul><b><li>Behance</li>
+            <li>Dribble</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+        </b>
+    </ul>
+    </nav>
+
+<!--Header Section-->
+  <div class="img-part">
+     <img src="image/arrow.jpg" class="arrow" alt="">
+     <img src="image/flower.jpg" class="circle" alt="">
+     <div class="text"><b>prOduC+ & <br> V!&ual dEs!gn</b></div>
+     <div class="img-2">
+        <p class="para">Motivated by a desire to create: <i>Kshitij </i>Kumar, is a mutidisciplinary designer based in New Delhi,India.With a passion for design. He love turning ideas into visually striking and highly functional realities.<br><br>
+            With roots in graphic design, where creativity meets precision. He started his journey with pixels and type, and that foundation still derives everything he creates, while blending style with purpose. </p>
+         <img src="image/arrow2.png" class="arrow2" alt="">
+         <div class="cursor"></div>
+     </div>
+  </div>
+  
+   <script>
+    const cursor = document.querySelector('.cursor');
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+    })
+   </script>
+</body>
+</html>
